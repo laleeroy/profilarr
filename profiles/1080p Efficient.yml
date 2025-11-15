@@ -79,22 +79,6 @@ custom_formats:
   score: 1000
 - name: NF
   score: 1000
-- name: FLAC
-  score: 800
-- name: DTS-HD HRA
-  score: 700
-- name: Opus
-  score: 700
-- name: Dolby Digital +
-  score: 600
-- name: DTS-ES
-  score: 500
-- name: Dolby Atmos
-  score: 400
-- name: Dolby Digital
-  score: 400
-- name: DTS
-  score: 300
 - name: AAC
   score: 200
 - name: WEB-DL Tier 1
