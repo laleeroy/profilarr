@@ -65,12 +65,8 @@ custom_formats:
   score: 3000
 - name: ATVP
   score: 3000
-- name: Dolby Vision
-  score: 3000
 - name: DSNP
   score: 3000
-- name: HDR10+
-  score: 2000
 - name: HMAX
   score: 2000
 - name: MAX
@@ -79,17 +75,9 @@ custom_formats:
   score: 1000
 - name: DS4K
   score: 1000
-- name: HDR
-  score: 1000
-- name: HDR10
-  score: 1000
-- name: HLG
-  score: 1000
 - name: iT
   score: 1000
 - name: NF
-  score: 1000
-- name: PQ
   score: 1000
 - name: FLAC
   score: 800
