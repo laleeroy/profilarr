@@ -29,7 +29,9 @@ custom_formats:
   score: 184000
 - name: 1080p Balanced Tier 1
   score: 140000
-- name: 1080p WEB-DL (h264)
+- name: h265
+  score: 140000
+- name: x265
   score: 140000
 - name: 720p WEB-DL
   score: 100000
