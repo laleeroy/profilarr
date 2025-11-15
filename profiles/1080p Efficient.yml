@@ -55,6 +55,8 @@ custom_formats:
   score: 40000
 - name: 720p Balanced Tier 1
   score: 20000
+- name: AAC
+  score: 20000
 - name: DVD
   score: 20000
 - name: DVD Remux
@@ -81,8 +83,6 @@ custom_formats:
   score: 1000
 - name: NF
   score: 1000
-- name: AAC
-  score: 200
 - name: WEB-DL Tier 1
   score: 100
 - name: WEB-DL Tier 2
