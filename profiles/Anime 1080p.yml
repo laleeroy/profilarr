@@ -109,14 +109,6 @@ custom_formats_sonarr:
 - name: AV1
   score: -10000
 qualities:
-- id: -5
-  name: Bluray/REMUX 1080p
-  description: ''
-  qualities:
-  - id: 8
-    name: Remux-1080p
-  - id: 10
-    name: Bluray-1080p
 - id: -2
   name: WEB 1080p
   description: ''
@@ -154,6 +146,6 @@ qualities:
 - id: 24
   name: SDTV
 upgrade_until:
-  id: -5
-  name: Bluray/REMUX 1080p
+  id: -2
+  name: WEB 1080p
 language: original
