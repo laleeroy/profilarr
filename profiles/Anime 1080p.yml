@@ -17,7 +17,7 @@ tags:
 - Sonarr
 - 1080p
 - TRaSH
-upgradesAllowed: true
+upgradesAllowed: false
 minCustomFormatScore: 0
 upgradeUntilScore: 10000
 minScoreIncrement: 1
