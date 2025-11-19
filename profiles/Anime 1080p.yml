@@ -24,6 +24,10 @@ minScoreIncrement: 1
 custom_formats: []
 custom_formats_radarr: []
 custom_formats_sonarr:
+- name: h265
+  score: 10000
+- name: x265
+  score: 10000
 - name: Anime Tier 1
   score: 1400
 - name: Anime Tier 2
@@ -107,6 +111,8 @@ custom_formats_sonarr:
 - name: Anime Raws
   score: -10000
 - name: AV1
+  score: -10000
+- name: x264
   score: -10000
 qualities:
 - id: -2
