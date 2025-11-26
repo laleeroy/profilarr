@@ -104,6 +104,8 @@ custom_formats_sonarr:
   score: 1
 - name: v1
   score: 1
+- name: x264
+  score: 0
 - name: v0
   score: -51
 - name: Anime LQ
@@ -111,8 +113,6 @@ custom_formats_sonarr:
 - name: Anime Raws
   score: -10000
 - name: AV1
-  score: -10000
-- name: x264
   score: -10000
 qualities:
 - id: -2
