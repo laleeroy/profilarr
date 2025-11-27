@@ -15,16 +15,12 @@ tags:
 - h265
 - x265
 upgradesAllowed: true
-minCustomFormatScore: 20000
+minCustomFormatScore: 20
 upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
 - name: 1080p WEB-DL HEVC Tier 1
   score: 200000
-- name: QxR Bluray
-  score: 184000
-- name: TAoE Bluray
-  score: 184000
 - name: 1080p Balanced Tier 1
   score: 140000
 - name: h265
@@ -144,18 +140,6 @@ custom_formats:
 - name: Xvid
   score: -999999
 custom_formats_radarr:
-- name: 1080p Efficient Movie Bluray Tier 1
-  score: 184000
-- name: 1080p Efficient Movie Bluray Tier 2
-  score: 183000
-- name: 1080p Efficient Movie Bluray Tier 3
-  score: 182000
-- name: Vialle Bluray
-  score: 182000
-- name: 1080p Efficient Movie Bluray Tier 4
-  score: 181000
-- name: 1080p Efficient Movie Bluray Tier 5
-  score: 180000
 - name: 1080p Efficient Movie WEB Tier 1
   score: 163000
 - name: QxR WEB
@@ -194,8 +178,6 @@ custom_formats_sonarr:
 - name: 1080p Efficient TV Bluray Tier 1
   score: 184000
 - name: 1080p Efficient TV Bluray Tier 2
-  score: 183000
-- name: Vialle Bluray
   score: 183000
 - name: 1080p Efficient TV Bluray Tier 3
   score: 182000
