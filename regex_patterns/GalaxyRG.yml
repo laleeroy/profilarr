@@ -1,8 +1,18 @@
 name: GalaxyRG
-pattern: (?<=^|[\s.-])GalaxyRG\b
+pattern: (?:(?<=^)|(?<=[\s.-]))GalaxyRG\d*\b
 description: Banned for Low Quality
 tags:
 - Release Group
 - Remux
 - Bluray
-tests: []
+tests:
+- expected: true
+  id: 1
+  input: GalaxyRG265
+  lastRun: '2025-11-27T12:31:08.814033'
+  matchSpan:
+    end: 11
+    start: 0
+  matchedContent: GalaxyRG265
+  matchedGroups: []
+  passes: true
