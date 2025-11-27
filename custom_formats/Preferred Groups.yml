@@ -224,6 +224,21 @@ conditions:
   pattern: YIFY
   required: false
   type: release_group
+- name: YTS
+  negate: false
+  pattern: YTS
+  required: false
+  type: release_group
+- name: Galaxy
+  negate: false
+  pattern: GALAXY
+  required: false
+  type: release_group
+- name: GalaxyRG
+  negate: false
+  pattern: GalaxyRG
+  required: false
+  type: release_group
 - name: RARBG
   negate: false
   pattern: RARBG
@@ -232,21 +247,6 @@ conditions:
 - name: RBG
   negate: false
   pattern: RBG
-  required: false
-  type: release_group
-- name: YTS
-  negate: false
-  pattern: YTS
-  required: false
-  type: release_group
-- name: GalaxyRG
-  negate: false
-  pattern: GalaxyRG
-  required: false
-  type: release_group
-- name: Galaxy
-  negate: false
-  pattern: GALAXY
   required: false
   type: release_group
 tests: []
