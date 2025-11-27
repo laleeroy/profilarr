@@ -3,8 +3,8 @@ description: Prefer lowest size possible but not hurting the quality so we can s
   multiple clients simultaenouisly
 tags: []
 upgradesAllowed: true
-minCustomFormatScore: 100
-upgradeUntilScore: 22000
+minCustomFormatScore: 0
+upgradeUntilScore: 20000
 minScoreIncrement: 0
 custom_formats:
 - name: h265
@@ -25,8 +25,30 @@ custom_formats:
   score: 100
 - name: x264
   score: 0
-custom_formats_radarr: []
-custom_formats_sonarr: []
+- name: 3D
+  score: -999999
+- name: AV1
+  score: -999999
+- name: B&W
+  score: -999999
+- name: Sing Along
+  score: -999999
+- name: VP9
+  score: -999999
+- name: VVC
+  score: -999999
+- name: Xvid
+  score: -999999
+custom_formats_radarr:
+- name: Extras
+  score: -999999
+- name: Upscale
+  score: -999999
+custom_formats_sonarr:
+- name: TV Extras
+  score: -999999
+- name: Upscaled
+  score: -999999
 qualities:
 - id: -1
   name: 1080p
