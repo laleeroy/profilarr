@@ -4,26 +4,6 @@ tags:
 - Preferred Groups
 - Release Groups
 conditions:
-- name: GalaxyRG
-  type: release_group
-  required: false
-  negate: false
-  pattern: GalaxyRG
-- name: RARBG
-  negate: false
-  pattern: RARBG
-  required: false
-  type: release_group
-- name: RBG
-  negate: false
-  pattern: RBG
-  required: false
-  type: release_group
-- name: YTS
-  negate: false
-  pattern: YTS
-  required: false
-  type: release_group
 - name: WEB Release Groups
   negate: false
   pattern: UHD Bluray Release Groups
@@ -242,6 +222,31 @@ conditions:
 - name: YIFY
   negate: false
   pattern: YIFY
+  required: false
+  type: release_group
+- name: RARBG
+  negate: false
+  pattern: RARBG
+  required: false
+  type: release_group
+- name: RBG
+  negate: false
+  pattern: RBG
+  required: false
+  type: release_group
+- name: YTS
+  negate: false
+  pattern: YTS
+  required: false
+  type: release_group
+- name: GalaxyRG
+  negate: false
+  pattern: GalaxyRG
+  required: false
+  type: release_group
+- name: Galaxy
+  negate: false
+  pattern: GALAXY
   required: false
   type: release_group
 tests: []
