@@ -1,0 +1,13 @@
+name: Banned Anime Groups
+pattern: (?i)(?:^|[^A-Za-z0-9])(?:T3KASHi|Punisher694)(?:[^A-Za-z0-9]|$)
+description: ''
+tags: []
+tests:
+- expected: true
+  id: 1
+  input: Punisher
+  lastRun: '2025-11-29T07:42:33.248239'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: false

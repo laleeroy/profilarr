@@ -1,0 +1,15 @@
+name: HDTV
+description: ''
+tags: []
+conditions:
+- name: TVRaw
+  type: source
+  required: false
+  negate: false
+  source: television_raw
+- name: TV
+  type: source
+  required: false
+  negate: false
+  source: television
+tests: []

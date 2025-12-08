@@ -1,0 +1,10 @@
+name: Preferred Movie Groups
+description: ''
+tags: []
+conditions:
+- name: Release Groups Movies
+  negate: false
+  pattern: Preferred Movie Groups
+  required: false
+  type: release_group
+tests: []

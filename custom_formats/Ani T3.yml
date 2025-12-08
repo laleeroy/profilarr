@@ -1,0 +1,10 @@
+name: Ani T3
+description: ''
+tags: []
+conditions:
+- name: Release Groups
+  negate: false
+  pattern: Ani T3
+  required: false
+  type: release_group
+tests: []

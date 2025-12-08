@@ -1,0 +1,53 @@
+name: Ani Test
+description: ''
+tags: []
+upgradesAllowed: true
+minCustomFormatScore: 0
+upgradeUntilScore: 10000
+minScoreIncrement: 0
+custom_formats: []
+custom_formats_radarr: []
+custom_formats_sonarr:
+- name: Season Pack
+  score: 10000
+- name: Ani T4
+  score: 1000
+- name: Ani T3
+  score: 800
+- name: Ani T2
+  score: 500
+- name: AAC
+  score: 100
+- name: Anime Raws
+  score: -999999
+- name: Banned Anime Groups
+  score: -999999
+qualities:
+- id: -3
+  name: 1080p
+  description: ''
+  qualities:
+  - id: 10
+    name: Bluray-1080p
+  - id: 9
+    name: WEBDL-1080p
+  - id: 11
+    name: WEBRip-1080p
+  - id: 12
+    name: HDTV-1080p
+- id: -2
+  name: 720p
+  description: ''
+  qualities:
+  - id: 13
+    name: Bluray-720p
+  - id: 14
+    name: WEBDL-720p
+  - id: 15
+    name: WEBRip-720p
+  - id: 16
+    name: HDTV-720p
+upgrade_until:
+  id: -3
+  name: 1080p
+language: must_original

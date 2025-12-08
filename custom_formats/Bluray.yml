@@ -1,0 +1,10 @@
+name: Bluray
+description: ''
+tags: []
+conditions:
+- name: Bluray
+  type: source
+  required: false
+  negate: false
+  source: bluray
+tests: []

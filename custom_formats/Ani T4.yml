@@ -1,0 +1,10 @@
+name: Ani T4
+description: ''
+tags: []
+conditions:
+- name: Release Groups
+  negate: false
+  pattern: Ani T4
+  required: false
+  type: release_group
+tests: []

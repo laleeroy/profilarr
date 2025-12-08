@@ -1,0 +1,10 @@
+name: Ani T2
+description: ''
+tags: []
+conditions:
+- name: HDTV
+  negate: false
+  pattern: Ani T2
+  required: false
+  type: release_group
+tests: []

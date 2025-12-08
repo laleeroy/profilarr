@@ -1,0 +1,10 @@
+name: Banned Anime Groups
+description: ''
+tags: []
+conditions:
+- name: HDTV
+  negate: false
+  pattern: Banned Anime Groups
+  required: false
+  type: release_group
+tests: []

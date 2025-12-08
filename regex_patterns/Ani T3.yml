@@ -1,0 +1,7 @@
+name: Ani T3
+pattern: (?i)(?:^|[^A-Za-z0-9])(?:chan|KH)(?:[^A-Za-z0-9]|$)
+description: 'chan - low size bluray with season pack x265 multiple audio
+
+  KH - Bluray, Season Pack, x265 (Anime tier 3)'
+tags: []
+tests: []

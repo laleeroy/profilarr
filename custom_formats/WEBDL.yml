@@ -1,0 +1,10 @@
+name: WEBDL
+description: ''
+tags: []
+conditions:
+- name: WEBRip
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+tests: []

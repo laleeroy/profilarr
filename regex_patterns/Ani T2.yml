@@ -1,0 +1,11 @@
+name: Ani T2
+pattern: (?i)(?:^|[^A-Za-z0-9])(?:SubsPlease|HorribleSubs|YURASUKA|Dae)(?:[^A-Za-z0-9]|$)
+description: 'HorribleSubs
+
+  SubsPlease
+
+  YURASUKA
+
+  Dae'
+tags: []
+tests: []

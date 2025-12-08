@@ -1,0 +1,35 @@
+name: Preferred Movie Groups
+pattern: (?i)(?:^|[^A-Za-z0-9])(?:Galaxy|AOC|GalaxyRG|GalaxyRG265|Licdom|YIFY|YTS|LAMA|PSA|V3SP4EV3R|RMTeam|NeoNoir|3Li|Rider88|ZiroMB|PiRaTeS|Rapta|iVy|PortalGoods|PiRa|RARBG|RBG|KONTRAST|BluBeast|DH|Joy)(?:[^A-Za-z0-9]|$)
+description: ''
+tags: []
+tests:
+- expected: true
+  id: 1
+  input: GalaxyRG
+  lastRun: '2025-11-29T09:11:03.246990'
+  matchSpan:
+    end: 8
+    start: 0
+  matchedContent: GalaxyRG
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 2
+  input: GalaxyRG265
+  lastRun: '2025-11-29T09:11:03.246990'
+  matchSpan:
+    end: 11
+    start: 0
+  matchedContent: GalaxyRG265
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 3
+  input: Licdom
+  lastRun: '2025-11-29T09:11:03.246990'
+  matchSpan:
+    end: 6
+    start: 0
+  matchedContent: Licdom
+  matchedGroups: []
+  passes: true

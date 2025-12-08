@@ -1,28 +1,12 @@
-name: 1080p Streaming
+name: Movies
 description: Prefer lowest size possible but not hurting the quality so we can serve
   multiple clients simultaenouisly
 tags: []
 upgradesAllowed: true
 minCustomFormatScore: 0
-upgradeUntilScore: 20000
+upgradeUntilScore: 1000
 minScoreIncrement: 0
 custom_formats:
-- name: Preferred Groups
-  score: 12000
-- name: h265
-  score: 10000
-- name: x265
-  score: 10000
-- name: 1080p
-  score: 2000
-- name: AAC
-  score: 1000
-- name: 1080p WEBRip
-  score: 300
-- name: 1080p WEB-DL
-  score: 200
-- name: 1080p Bluray
-  score: 100
 - name: x264
   score: 0
 - name: 3D
@@ -40,11 +24,35 @@ custom_formats:
 - name: Xvid
   score: -999999
 custom_formats_radarr:
+- name: Preferred Movie Groups
+  score: 1000
+- name: AAC
+  score: 100
+- name: h265
+  score: 100
+- name: x265
+  score: 100
 - name: Extras
   score: -999999
 - name: Upscale
   score: -999999
 custom_formats_sonarr:
+- name: Preferred Groups
+  score: 12000
+- name: h265
+  score: 10000
+- name: x265
+  score: 10000
+- name: 1080p
+  score: 2000
+- name: AAC
+  score: 1000
+- name: 1080p WEBRip
+  score: 300
+- name: 1080p WEB-DL
+  score: 200
+- name: 1080p Bluray
+  score: 100
 - name: TV Extras
   score: -999999
 - name: Upscaled
@@ -83,4 +91,4 @@ qualities:
 upgrade_until:
   id: -1
   name: 1080p
-language: must_original
+language: original
